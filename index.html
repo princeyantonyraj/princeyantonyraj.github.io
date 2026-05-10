@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Princey Antonyraj | Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      background:linear-gradient(to right,#020617,#111827);
+    }
+
+    header h1{
+      font-size:60px;
+      margin-bottom:10px;
+      color:#38bdf8;
+    }
+
+    header p{
+      font-size:20px;
+      max-width:700px;
+      color:#cbd5e1;
+    }
+
+    .btn-group{
+      margin-top:30px;
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      padding:14px 28px;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .primary{
+      background:#38bdf8;
+      color:black;
+    }
+
+    .primary:hover{
+      background:#0ea5e9;
+      transform:scale(1.05);
+    }
+
+    .secondary{
+      border:2px solid #38bdf8;
+      color:#38bdf8;
+    }
+
+    .secondary:hover{
+      background:#38bdf8;
+      color:black;
+      transform:scale(1.05);
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    h2{
+      color:#38bdf8;
+      margin-bottom:20px;
+      font-size:36px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+      margin-top:20px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      box-shadow:0px 0px 20px rgba(56,189,248,0.3);
+    }
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
+      margin-top:20px;
+    }
+
+    .skill{
+      background:#334155;
+      padding:10px 20px;
+      border-radius:30px;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .project-card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+      transition:0.3s;
+    }
+
+    .project-card:hover{
+      transform:translateY(-5px);
+      box-shadow:0px 0px 20px rgba(56,189,248,0.3);
+    }
+
+    .project-card a{
+      color:#38bdf8;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#020617;
+      color:#94a3b8;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:40px;
+      }
+
+      header p{
+        font-size:18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <h1>Princey Antonyraj</h1>
+
+    <p>
+      Data Analytics & Operations Professional skilled in SQL, Power BI,
+      Tableau, Excel, Salesforce CRM and Business Analytics.
+    </p>
+
+    <div class="btn-group">
+
+      <!-- DOWNLOAD RESUME -->
+      <a href="resume.pdf" download class="btn primary">
+        Download Resume
+      </a>
+
+      <!-- VIEW RESUME -->
+      <a href="resume.pdf" target="_blank" class="btn secondary">
+        View Resume
+      </a>
+
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+
+    <div class="card">
+      <p>
+        MBA graduate specialized in Business Analytics & Operations with
+        experience in Credit Risk Management, Data Validation and MIS Reporting.
+        Passionate about Data Analytics, Dashboard Development and solving
+        business problems using data.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill">SQL</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">Excel</div>
+      <div class="skill">Tableau</div>
+      <div class="skill">Salesforce CRM</div>
+      <div class="skill">BAAN ERP</div>
+      <div class="skill">SPSS</div>
+      <div class="skill">Data Analytics</div>
+      <div class="skill">Dashboarding</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>SQL Business Analysis</h3>
+        <p>Business data analysis project using SQL.</p>
+        <br>
+        <a href="https://github.com/princeyantonyraj/sql-business-analysis" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Excel Sales Analysis</h3>
+        <p>Interactive sales analysis using Excel dashboards.</p>
+        <br>
+        <a href="https://github.com/princeyantonyraj/excel-sales-analysis" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Meta Ad Performance Dashboard</h3>
+        <p>Facebook & Instagram ad performance dashboard using Power BI.</p>
+        <br>
+        <a href="https://github.com/princeyantonyraj/META-AD-PERFORMANCE---POWER-BI-DASHBOARD" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>India General Election 2024</h3>
+        <p>Power BI dashboard for Indian Election Results Analysis.</p>
+        <br>
+        <a href="https://github.com/princeyantonyraj/INDIA-GENERAL-ELECTION-RESULT-2024" target="_blank">
+          View Project
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact</h2>
+
+    <div class="card">
+      <p>Email: arockiaprinceyantonyraj@gmail.com</p>
+      <p>Phone: 9025671141</p>
+
+      <br>
+
+      <a
+        href="https://github.com/princeyantonyraj"
+        target="_blank"
+        class="btn primary"
+      >
+        Visit GitHub
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Princey Antonyraj | Portfolio</p>
+  </footer>
+
+</body>
+</html>
