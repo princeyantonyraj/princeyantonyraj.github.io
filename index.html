@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Princey Antonyraj | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Princey Antonyraj | Data Analyst</title>
 
   <style>
     *{
       margin:0;
       padding:0;
       box-sizing:border-box;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
     }
 
     body{
-      background:#0f172a;
-      color:white;
+      background:#f8fafc;
+      color:#1e293b;
       line-height:1.6;
     }
 
@@ -26,263 +26,218 @@
       justify-content:center;
       align-items:center;
       text-align:center;
+      background:linear-gradient(to right,#e0f2fe,#f8fafc);
       padding:20px;
-      background:linear-gradient(to right,#020617,#111827);
     }
 
     header h1{
-      font-size:60px;
-      margin-bottom:10px;
-      color:#38bdf8;
+      font-size:50px;
+      color:#0ea5e9;
     }
 
     header p{
-      font-size:20px;
       max-width:700px;
-      color:#cbd5e1;
+      margin-top:10px;
+      font-size:18px;
+      color:#334155;
     }
 
     .btn-group{
       margin-top:30px;
       display:flex;
-      gap:20px;
+      gap:15px;
       flex-wrap:wrap;
     }
 
     .btn{
-      padding:14px 28px;
+      padding:12px 24px;
+      border-radius:8px;
       text-decoration:none;
-      border-radius:10px;
       font-weight:bold;
       transition:0.3s;
     }
 
     .primary{
-      background:#38bdf8;
-      color:black;
+      background:#0ea5e9;
+      color:white;
     }
 
     .primary:hover{
-      background:#0ea5e9;
-      transform:scale(1.05);
+      background:#0284c7;
     }
 
     .secondary{
-      border:2px solid #38bdf8;
-      color:#38bdf8;
+      border:2px solid #0ea5e9;
+      color:#0ea5e9;
     }
 
     .secondary:hover{
-      background:#38bdf8;
-      color:black;
-      transform:scale(1.05);
+      background:#0ea5e9;
+      color:white;
     }
 
     section{
-      padding:80px 10%;
+      padding:60px 10%;
     }
 
     h2{
-      color:#38bdf8;
+      color:#0ea5e9;
       margin-bottom:20px;
-      font-size:36px;
+      font-size:32px;
     }
 
     .card{
-      background:#1e293b;
-      padding:25px;
-      border-radius:15px;
-      margin-top:20px;
-      transition:0.3s;
-    }
-
-    .card:hover{
-      transform:translateY(-5px);
-      box-shadow:0px 0px 20px rgba(56,189,248,0.3);
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0px 4px 15px rgba(0,0,0,0.05);
+      margin-top:15px;
     }
 
     .skills{
       display:flex;
       flex-wrap:wrap;
-      gap:15px;
-      margin-top:20px;
+      gap:10px;
     }
 
     .skill{
-      background:#334155;
-      padding:10px 20px;
-      border-radius:30px;
+      background:#e0f2fe;
+      padding:8px 16px;
+      border-radius:20px;
+      font-size:14px;
     }
 
     .projects{
       display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-      gap:25px;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
     }
 
     .project-card{
-      background:#1e293b;
-      padding:25px;
-      border-radius:15px;
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0px 4px 15px rgba(0,0,0,0.05);
       transition:0.3s;
     }
 
     .project-card:hover{
       transform:translateY(-5px);
-      box-shadow:0px 0px 20px rgba(56,189,248,0.3);
     }
 
     .project-card a{
-      color:#38bdf8;
-      text-decoration:none;
+      color:#0ea5e9;
       font-weight:bold;
+      text-decoration:none;
     }
 
     footer{
       text-align:center;
-      padding:30px;
-      background:#020617;
-      color:#94a3b8;
+      padding:20px;
+      background:#e2e8f0;
+      margin-top:40px;
     }
 
-    @media(max-width:768px){
-      header h1{
-        font-size:40px;
-      }
-
-      header p{
-        font-size:18px;
-      }
-    }
   </style>
 </head>
 
 <body>
 
-  <!-- HERO SECTION -->
-  <header>
-    <h1>Princey Antonyraj</h1>
+<!-- HERO -->
+<header>
+  <h1>Princey Antonyraj</h1>
 
+  <p>
+    Data Analyst with expertise in Power BI, SQL, and Python (EDA). 
+    Experienced in Credit Risk at YES Bank and building end-to-end 
+    data dashboards & business insights.
+  </p>
+
+  <div class="btn-group">
+    <a href="Princey_Antonyraj_Resume.pdf" download class="btn primary">Download Resume</a>
+    <a href="Princey_Antonyraj_Resume.pdf" target="_blank" class="btn secondary">View Resume</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Me</h2>
+
+  <div class="card">
     <p>
-      Data Analytics & Operations Professional skilled in SQL, Power BI,
-      Tableau, Excel, Salesforce CRM and Business Analytics.
+      MBA graduate in Business Analytics with hands-on experience in SQL, Python (EDA),
+      Tableau, and Power BI. Worked as Assistant Credit Risk Manager at YES Bank, 
+      delivering data-driven decisions and MIS dashboards. Currently upskilling in 
+      advanced analytics and building real-world data projects.
     </p>
+  </div>
+</section>
 
-    <div class="btn-group">
+<!-- SKILLS -->
+<section>
+  <h2>Skills</h2>
 
-      <!-- DOWNLOAD RESUME -->
-      <a href="resume.pdf" download class="btn primary">
-        Download Resume
-      </a>
+  <div class="skills">
+    <div class="skill">Power BI (DAX)</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Python (Pandas, NumPy)</div>
+    <div class="skill">Tableau</div>
+    <div class="skill">Excel (Pivot, VLOOKUP)</div>
+    <div class="skill">Salesforce CRM</div>
+    <div class="skill">BAAN ERP</div>
+    <div class="skill">MIS Reporting</div>
+    <div class="skill">Data Visualization</div>
+  </div>
+</section>
 
-      <!-- VIEW RESUME -->
-      <a href="resume.pdf" target="_blank" class="btn secondary">
-        View Resume
-      </a>
+<!-- PROJECTS -->
+<section>
+  <h2>Projects</h2>
 
-    </div>
-  </header>
+  <div class="projects">
 
-  <!-- ABOUT -->
-  <section>
-    <h2>About Me</h2>
-
-    <div class="card">
-      <p>
-        MBA graduate specialized in Business Analytics & Operations with
-        experience in Credit Risk Management, Data Validation and MIS Reporting.
-        Passionate about Data Analytics, Dashboard Development and solving
-        business problems using data.
-      </p>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section>
-    <h2>Skills</h2>
-
-    <div class="skills">
-      <div class="skill">SQL</div>
-      <div class="skill">Power BI</div>
-      <div class="skill">Excel</div>
-      <div class="skill">Tableau</div>
-      <div class="skill">Salesforce CRM</div>
-      <div class="skill">BAAN ERP</div>
-      <div class="skill">SPSS</div>
-      <div class="skill">Data Analytics</div>
-      <div class="skill">Dashboarding</div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section>
-    <h2>Projects</h2>
-
-    <div class="projects">
-
-      <div class="project-card">
-        <h3>SQL Business Analysis</h3>
-        <p>Business data analysis project using SQL.</p>
-        <br>
-        <a href="https://github.com/princeyantonyraj/sql-business-analysis" target="_blank">
-          View Project
-        </a>
-      </div>
-
-      <div class="project-card">
-        <h3>Excel Sales Analysis</h3>
-        <p>Interactive sales analysis using Excel dashboards.</p>
-        <br>
-        <a href="https://github.com/princeyantonyraj/excel-sales-analysis" target="_blank">
-          View Project
-        </a>
-      </div>
-
-      <div class="project-card">
-        <h3>Meta Ad Performance Dashboard</h3>
-        <p>Facebook & Instagram ad performance dashboard using Power BI.</p>
-        <br>
-        <a href="https://github.com/princeyantonyraj/META-AD-PERFORMANCE---POWER-BI-DASHBOARD" target="_blank">
-          View Project
-        </a>
-      </div>
-
-      <div class="project-card">
-        <h3>India General Election 2024</h3>
-        <p>Power BI dashboard for Indian Election Results Analysis.</p>
-        <br>
-        <a href="https://github.com/princeyantonyraj/INDIA-GENERAL-ELECTION-RESULT-2024" target="_blank">
-          View Project
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section>
-    <h2>Contact</h2>
-
-    <div class="card">
-      <p>Email: arockiaprinceyantonyraj@gmail.com</p>
-      <p>Phone: 9025671141</p>
-
+    <div class="project-card">
+      <h3>Blinkit Sales Analysis (Python)</h3>
+      <p>Analysed 8,500+ records to extract KPIs like revenue, ratings, and category trends.</p>
       <br>
-
-      <a
-        href="https://github.com/princeyantonyraj"
-        target="_blank"
-        class="btn primary"
-      >
-        Visit GitHub
-      </a>
-
+      <a href="https://github.com/princeyantonyraj" target="_blank">View Project</a>
     </div>
-  </section>
 
-  <footer>
-    <p>© 2026 Princey Antonyraj | Portfolio</p>
-  </footer>
+    <div class="project-card">
+      <h3>Election Dashboard 2024</h3>
+      <p>Power BI dashboard with 543 constituency insights and drill-through analysis.</p>
+      <br>
+      <a href="https://github.com/princeyantonyraj/INDIA-GENERAL-ELECTION-RESULT-2024" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Meta Ads Dashboard</h3>
+      <p>Tracked KPIs like CTR, CPC, ROAS using Power BI and DAX measures.</p>
+      <br>
+      <a href="https://github.com/princeyantonyraj/META-AD-PERFORMANCE---POWER-BI-DASHBOARD" target="_blank">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact</h2>
+
+  <div class="card">
+    <p>Email: arockiaprinceyantonyraj@gmail.com</p>
+    <p>Phone: +91 9025671141</p>
+
+    <br>
+
+    <a href="https://github.com/princeyantonyraj" target="_blank" class="btn primary">GitHub</a>
+    <a href="https://www.linkedin.com/in/princey-antony-raj-0008671b1" target="_blank" class="btn secondary">LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Princey Antonyraj</p>
+</footer>
 
 </body>
 </html>
